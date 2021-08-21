@@ -1,0 +1,53 @@
+.reg-form-btn{
+    transition: all 0.5s;
+    background-color: rgba(255, 195, 1) !important;
+    border: 1px solid transparent !important;
+    color: white !important;
+    /* font-weight: bold !important; */
+    font-size: 16px;
+    width: 15% !important;
+}
+.reg-form-btn:hover{
+    border: 1px solid #ffc301 !important;
+    background-color: transparent !important;
+    color: #ffc301 !important;
+}
+.regHead{
+    background: rgba(255, 195, 1,0.3);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 25px 0px 8px 0px;
+    border-radius: 0px 0px 255px 255px;
+}
+.regForm{
+    margin-top: 60px;
+}
+
+
+@media screen and (max-width:991px){
+    .free{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .free .free-trial{
+        width: 100%;
+    }
+    .free .cont{
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
